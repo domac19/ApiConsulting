@@ -19,12 +19,6 @@ namespace ApiConsulting.Controllers
 
             return View();
         }
-        public ActionResult Post()
-        {
-            ViewBag.Message = "My first post.";
-
-            return View();
-        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
